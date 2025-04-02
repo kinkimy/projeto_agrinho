@@ -13,3 +13,9 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.imagem-configuracao {
+    width: 150px;
+    height: 150px;
+    position: right top;
+}
