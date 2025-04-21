@@ -9,7 +9,7 @@
 }
 
 .container{
-    widht: 100vw;
+    width: 100vw;
     height: 100vh;
     background-color: var(--background-light);
     display: flex;
@@ -23,7 +23,7 @@
 }
 
 .label{
-    widht: 50px;
+    width: 50px;
     height: 26px;
     background-color: #111;
     display: flex;
