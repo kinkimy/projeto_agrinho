@@ -13,7 +13,6 @@
     height: 100vh;
     background-color: var(--background-light);
     display: flex;
-    align-items: top, left;
     justify-content: top,left;
     transition: ease-in-out .3s;
 }
