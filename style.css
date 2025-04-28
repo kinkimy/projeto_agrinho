@@ -13,7 +13,7 @@
     height: 100vh;
     background-color: var(--background-light);
     display: flex;
-    justify-content: top,left;
+    justify-content: top,right;
     transition: ease-in-out .3s;
 }
 
@@ -28,7 +28,7 @@
     display: flex;
     border-radius: 50px;
     justify-content: space-between;
-    align-items: top, left;
+    align-items: top, right;
     padding: 5px;
     position: relative;
 }
