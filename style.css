@@ -5,6 +5,7 @@
     position: sticky;
 }
 
+nav {
 *{
     margin: 0;
     box-sizing: border-box;
@@ -66,4 +67,5 @@
 
 .checkbox:checked + .label .ball{
     transform: translateX(24px);
+}
 }
