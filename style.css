@@ -7,6 +7,11 @@
     z-index: 1000;
 }
 
+.imagem-cabecalho {
+    width: 120px;
+    height: auto;
+}
+
 /*nav {
 *{
     margin: 0;
