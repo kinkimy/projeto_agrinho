@@ -1,14 +1,13 @@
 .cabecalho {
     background: #202422;
     color: white;
-    padding: 20px 0%;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .imagem-cabecalho {
-    width: 120px;
+    width: 200px;
     height: auto;
 }
 
