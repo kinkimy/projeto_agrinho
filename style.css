@@ -27,6 +27,7 @@ button {
 }
 
 .vertical-menu {
+    display: none;
     list-style-type: none;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
