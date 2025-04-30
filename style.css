@@ -26,6 +26,21 @@ button {
     color: white;
 }
 
+.vertical-menu {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(66, 214, 66);
+}
+
 /*nav {
 *{
     margin: 0;
