@@ -17,6 +17,12 @@
     height: auto;
 }
 
+.logo-agrinho {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
 button{
     font-size: 30px;
     margin-top: 30px;
