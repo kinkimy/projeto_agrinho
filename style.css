@@ -24,6 +24,7 @@ button {
     background-color: transparent;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .vertical-menu {
@@ -32,7 +33,6 @@ button {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     margin-right: 30px;
-    padding: 10px;
 }
 
 a {
