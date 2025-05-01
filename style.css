@@ -33,12 +33,19 @@ button {
     font-family: 'Roboto', sans-serif;
     margin-right: 30px;
     padding: 10px;
+}
+
+a {
     color: white;
     text-decoration: none;
 }
 
 a:hover {
     color: rgb(66, 214, 66);
+}
+
+li {
+    padding: 10px;
 }
 
 /*nav {
