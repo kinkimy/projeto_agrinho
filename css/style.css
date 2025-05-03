@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.imagem-cabecalho {
+    width: 100px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.logo-agrinho {
+    margin-right: 30px;
+    margin-top: 15px;
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+button{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    float: left;
+}
+
+.vertical-menu {
+    display: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+    float: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(66, 214, 66);
+}
+
+li {
+    padding: 10px;
+}
