@@ -12,6 +12,12 @@
     z-index: 1000;
 }
 
+body {
+    background-color: #fafafa;
+    display: flex;
+    transition: background 0.2s linear;
+}
+
 body.dark {
     background: #232c35;
 }
