@@ -1,3 +1,4 @@
+/* BOTÃO DE MENU*/
 function Menu(){
     var menu = document.getElementById("menuinicial");
     if(menu.style.display ==="none"){
@@ -8,8 +9,11 @@ function Menu(){
     }
 }
 
+/* BOTÃO DO TEMA */
 const chk = document.getElementById('chk')
 
 chk.addEventListener('change', () => {
     document.body.classList.toggle('dark')
 })
+
+/* BOTÃO DO TAMANHO DA FONTE*/

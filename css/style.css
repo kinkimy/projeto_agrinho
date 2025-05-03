@@ -18,6 +18,48 @@ body {
     transition: background 0.2s linear;
 }
 
+/* IMAGEM DA LOGO */
+.imagem-cabecalho {
+    width: 100px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* BOTÃO DE MENU */
+button{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    float: left;
+}
+
+.vertical-menu {
+    display: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+    float: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(66, 214, 66);
+}
+
+li {
+    padding: 10px;
+}
+
+/* BOTÃO DO TEMA */
 body.dark {
     background: #232c35;
 }
@@ -62,49 +104,11 @@ body.dark {
     color: #f39c12;
 }
 
-.imagem-cabecalho {
-    width: 100px;
-    height: auto;
-    margin-bottom: 30px;
-}
-
+/* LOGO DO AGRINHO */
 .logo-agrinho {
     margin-right: 30px;
     margin-top: 15px;
     width: 200px;
     height: auto;
     float: right;
-}
-
-button{
-    font-size: 30px;
-    margin-top: 30px;
-    margin-left: 30px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-    float: left;
-}
-
-.vertical-menu {
-    display: none;
-    list-style-type: none;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    margin-right: 30px;
-    float: left;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(66, 214, 66);
-}
-
-li {
-    padding: 10px;
 }
