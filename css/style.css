@@ -13,8 +13,6 @@
 }
 
 body {
-    background-color: #fafafa;
-    display: flex;
     transition: background 0.2s linear;
 }
 
