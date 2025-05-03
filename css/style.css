@@ -75,6 +75,7 @@ body.dark {
     justify-content: space-between;
     padding: 5px;
     position: relative;
+    height: auto;
 }
 
 .label .ball {
