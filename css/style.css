@@ -46,6 +46,14 @@ body.dark {
     transform: translateX(24px);
 }
 
+.fa-moon {
+    color: #ffffff;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
 .imagem-cabecalho {
     width: 100px;
     height: auto;
