@@ -26,8 +26,13 @@ body.dark {
     border-radius: 50px;
     cursor: pointer;
     display: flex;
-    align-items: left, top;
+    align-items: center;
     justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
 }
 
 .label .ball {
