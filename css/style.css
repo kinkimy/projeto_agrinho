@@ -18,9 +18,9 @@
 
 /* IMAGEM DA LOGO */
 .imagem-cabecalho {
-    width: 100px;
+    width: 200px;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 /* BOTÃO DE MENU */
@@ -110,4 +110,9 @@ body.dark {
     width: 200px;
     height: auto;
     float: right;
+}
+
+/* TÍTULOS E TEXTOS */
+.titulo-principal {
+    align-items: center;
 }
