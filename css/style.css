@@ -17,9 +17,11 @@
 
 /* LOGO DO SITE */
 .imagem-cabecalho {
-    width: 150px;
+    position: absolute;
+    width: 125px;
     height: auto;
-    margin-bottom: 50px;
+    left: 10%;
+    align-items: center;
 }
 
 /* BOTÃO DE MENU */
@@ -104,8 +106,8 @@ body.dark {
 
 /* LOGO DO AGRINHO */
 .logo-agrinho {
-    margin-right: 30px;
-    margin-top: 15px;
+    position: absolute;
+    align-items: center;
     width: 300px;
     height: auto;
     float: right;
