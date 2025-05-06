@@ -17,10 +17,9 @@
 
 /* LOGO DO SITE */
 .imagem-cabecalho {
-    position: absolute;
     width: 125px;
     height: auto;
-    left: 10%;
+    left: 30px;
     align-items: center;
 }
 
@@ -132,7 +131,7 @@ body.dark {
 
 /* IMAGENS DO SITE */
 .imagem-planta {
-    width: 150px;
+    width: 200px;
 }
 
 img, p {
