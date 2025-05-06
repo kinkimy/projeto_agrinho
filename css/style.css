@@ -132,6 +132,10 @@ body.dark {
     width: 500px;
 }
 
+img, p {
+    display: inline-block;
+}
+
 .texto-imagem {
     display: flex;
     align-items: center;
