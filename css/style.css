@@ -17,7 +17,7 @@
 
 /* IMAGEM DA LOGO */
 .imagem-cabecalho {
-    width: 200px;
+    width: 150px;
     height: auto;
     margin-bottom: 50px;
 }
@@ -106,7 +106,7 @@ body.dark {
 .logo-agrinho {
     margin-right: 30px;
     margin-top: 15px;
-    width: 200px;
+    width: 250px;
     height: auto;
     float: right;
 }
