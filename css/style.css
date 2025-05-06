@@ -24,9 +24,9 @@
 
 /* BOTÃO DE MENU */
 button{
-    font-size: 30px;
-    margin-top: 30px;
-    margin-left: 30px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
     background-color: transparent;
     border: none;
     color: white;
@@ -73,7 +73,7 @@ body.dark {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 0;
     position: relative;
     height: auto;
 }
@@ -84,10 +84,10 @@ body.dark {
     position: absolute;
     top: 2px;
     left: 2px;
-    height: 22px;
-    width: 22px;
+    height: 20px;
+    width: 20px;
     transform: translateX(0px);
-    transition: transform 0.2s linear;
+    transition: transform 0.1s linear;
 }
 
 .checkbox:checked + .label .ball {
@@ -106,13 +106,14 @@ body.dark {
 .logo-agrinho {
     margin-right: 30px;
     margin-top: 15px;
-    width: 250px;
+    width: 300px;
     height: auto;
     float: right;
 }
 
 /* TÍTULOS E TEXTOS */
 .titulo-principal {
+    font-size: 100px;
     text-align: center;
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
@@ -129,7 +130,7 @@ body.dark {
 
 /* IMAGENS DO SITE */
 .imagem-planta {
-    width: 500px;
+    width: 300px;
 }
 
 img, p {
