@@ -15,7 +15,7 @@
     transition: background 0.2s linear;
 }
 
-/* IMAGEM DA LOGO */
+/* LOGO DO SITE */
 .imagem-cabecalho {
     width: 150px;
     height: auto;
@@ -125,4 +125,13 @@ body.dark {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* IMAGENS DO SITE */
+.imagem-planta {
+    width: 500px;
+}
+
+img, p {
+    display: inline-block;
 }
