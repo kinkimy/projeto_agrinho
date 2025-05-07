@@ -10,10 +10,10 @@ function Menu(){
 }
 
 /* BOTÃO DO TEMA */
-const chk = document.getElementById('chk')
+const alternaContraste = document.getElementById('alterna-contraste')
 
-chk.addEventListener('change', () => {
-    document.body.classList.toggle('dark')
+alternaContraste.addEventListener('click', function(){
+    document.body.classList.toggle('alto-contraste')
 })
 
 /* BOTÃO DO TAMANHO DA FONTE*/
