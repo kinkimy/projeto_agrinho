@@ -133,8 +133,8 @@ body.dark {
 #container {
     display: flex;
     flex-direction: row;
-    width: 800px;
-    height: 500px;
+    width: auto;
+    height: 395px;
     background-color: #6bb77d;
     padding: 0;
     align-items: center;
@@ -145,4 +145,5 @@ body.dark {
     width: 40%;
     margin: 0, 15px;
     border-radius: 60px;
+    height: 350px;
 }
