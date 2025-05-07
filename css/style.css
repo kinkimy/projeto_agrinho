@@ -130,18 +130,14 @@ body.dark {
 }
 
 /* IMAGENS DO SITE */
+
+#container {
+    display: flex;
+}
 .imagem-planta {
     width: 200px;
 }
 
 img, p {
     display: inline-block;
-}
-
-.texto-imagem {
-    display: flex;
-    align-items: center;
-    display: inline-block;
-    background-color: #6bb77d;
-    padding: 5px;
 }
