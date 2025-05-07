@@ -130,6 +130,10 @@ body.dark {
 
 /* IMAGENS DO SITE */
 
+body {
+    align-items: center;
+}
+
 #container {
     display: flex;
     flex-direction: row;
