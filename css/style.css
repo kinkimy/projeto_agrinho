@@ -139,6 +139,7 @@ body.dark {
     background-color: #6bb77d;
     padding: 0;
     align-items: center;
+    border-radius: 30px;
 }
 
 .imagem-planta {
