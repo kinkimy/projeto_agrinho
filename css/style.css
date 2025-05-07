@@ -146,6 +146,7 @@ body {
 }
 
 .imagem-planta {
+    padding-left: 30px;
     width: 40%;
     margin: 0, 15px;
     border-radius: 60px;
