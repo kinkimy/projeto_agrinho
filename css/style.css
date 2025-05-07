@@ -113,12 +113,11 @@ body.dark {
 
 /* TÍTULOS E TEXTOS */
 .titulo-principal {
-    font-size: 100px;
+    font-size: 55px;
     text-align: center;
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+    
 }
 
 .titulo-principal-pt2 {
