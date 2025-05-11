@@ -72,14 +72,26 @@ li {
     transform: scale(1.05);
 }
 
+.cabecalho-itens {
+    list-style: none;
+    gap: 35px;
+    display: flex;
+}
+
+.cabecalho-lista a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
 /*
 /* TÍTULOS E TEXTOS *
 .titulo-principal {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-width: 1100;
     padding: 0;
     
 }
@@ -89,7 +101,7 @@ li {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 50px;
 
 }
 
