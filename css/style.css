@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* CABEÇARIO */
 .cabecalho {
     margin: 0;
     padding: 0;
@@ -16,12 +11,12 @@
 }
 
 /* LOGO DO SITE */
-.imagem-cabecalho {
+.logo-do-site {
     width: 125px;
     height: auto;
-    left: 30px;
-    align-items: center;
-    margin-left: 20px;
+    margin-right: 20px;
+    right: 20px;
+    float: right;
 }
 
 /* BOTÃO DE MENU */
@@ -60,13 +55,13 @@ li {
 
 /* LOGO DO AGRINHO */
 .logo-agrinho {
-    position: absolute;
     width: 300px;
     height: auto;
-    float: right;
+    float: left;
 }
 
-/* TÍTULOS E TEXTOS */
+/*
+/* TÍTULOS E TEXTOS *
 .titulo-principal {
     font-size: 50px;
     text-align: center;
