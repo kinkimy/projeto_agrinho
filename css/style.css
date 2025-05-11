@@ -23,7 +23,6 @@ body {
     transition: background 0.2s linear;
 }
 
-/* LOGO DO SITE */
 .logo-do-site {
     width: 125px;
     height: auto;
@@ -66,11 +65,11 @@ li {
     padding: 10px;
 }
 
-/* LOGO DO AGRINHO */
 .logo-agrinho {
-    width: 300px;
+    width: 150px;
     height: auto;
     float: left;
+    transform: scale(1.05);
 }
 
 /*
