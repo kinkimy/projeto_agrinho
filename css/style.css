@@ -57,7 +57,7 @@ li {
 }
 
 .logo-agrinho {
-    width: 150px;
+    width: 200px;
     height: auto;
     float: left;
 }
@@ -78,7 +78,7 @@ li {
     width: 120px;
     height: auto;
     align-items: center;
-    top: right;
+    justify-content: flex-end;
 }
 
 
