@@ -107,8 +107,8 @@ body {
 #container {
     display: flex;
     flex-direction: row;
-    width: auto;
-    height: 395px;
+    width: 1150px;
+    height: auto;
     background-color: #6bb77d;
     padding: 109px 350px;
     align-items: center;
@@ -119,6 +119,6 @@ body {
     padding-left: 30px;
     width: 40%;
     margin: 0, 15px;
-    border-radius: 60px;
+    border-radius: 50px;
     height: 350px;
 }
