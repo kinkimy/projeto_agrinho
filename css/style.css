@@ -20,14 +20,11 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    transition: background 0.2s linear;
 }
 
 .logo-do-site {
     width: 125px;
     height: auto;
-    margin-right: 20px;
-    right: 20px;
     float: right;
 }
 
@@ -69,7 +66,6 @@ li {
     width: 150px;
     height: auto;
     float: left;
-    transform: scale(1.05);
 }
 
 .cabecalho-itens {
@@ -90,7 +86,7 @@ li {
     text-align: center;
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
-    font-width: 1100;
+    font-weight: 1100;
     padding: 0;
     
 }
