@@ -15,3 +15,22 @@ function Menu(){
         const fontSizeDisplay = document.getElementById('fontSizeDisplay');
 
         let fontSize = 100;
+
+         fonteMenor.addEventListener('click', () => {
+            if (fontSize > 70) {
+                fontSize -= 10;
+                updateFontSize();
+            }
+        });
+        
+         fonteMaior.addEventListener('click', () => {
+            if (fontSize < 150) {
+                fontSize += 10;
+                updateFontSize();
+            }
+        });
+        
+        function updateFontSize() {
+            document.documentElement.style.setProperty('--font-size', `${fontSize / 100 * 16}px`);
+            fontSizeDisplay.textContent = `${fontSize}%`;
+        }
