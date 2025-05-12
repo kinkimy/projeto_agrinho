@@ -22,12 +22,6 @@ body {
     z-index: 1000;
 }
 
-.logo-do-site {
-    width: 125px;
-    height: auto;
-    float: right;
-}
-
 /* BOTÃO DE MENU */
 button{
     font-size: 35px;
@@ -78,6 +72,11 @@ li {
     color: #ffffff;
     text-decoration: none;
     transition: all 0.3s;
+}
+
+.logo-do-site {
+    width: 150px;
+    height: auto;
 }
 
 
