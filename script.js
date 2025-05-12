@@ -1,4 +1,4 @@
-/* BOTÃO DE MENU*/
+// BOTÃO DE MENU //
 function Menu(){
     var menu = document.getElementById("menuinicial");
     if(menu.style.display ==="none"){
@@ -9,11 +9,9 @@ function Menu(){
     }
 }
 
-/* BOTÃO DO TEMA */
-const alternaContraste = document.getElementById('alterna-contraste')
+// BOTÃO DO TAMANHO DA FONTE //
+        const fonteMenor = document.getElementById('fonteMenor');
+        const fonteMaior = document.getElementById('fonteMaior');
+        const fontSizeDisplay = document.getElementById('fontSizeDisplay');
 
-alternaContraste.addEventListener('click', function(){
-    document.body.classList.toggle('alto-contraste')
-})
-
-/* BOTÃO DO TAMANHO DA FONTE*/
+        let fontSize = 100;

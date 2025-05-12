@@ -15,7 +15,21 @@
     <header class="cabecalho">
         <button class="botao" onclick="Menu()">&#9776</button>
         <ul class="vertical-menu" id="menuinicial">
-            ...
+
+            <div class="tamanho-da-fonte">
+                <button id="fonteMenor" class="p-2 rounded-full hover:bg-gray-700 transition">
+                    <i class="fas fa-font text-sm"></i>
+                    <i class="fas fa-minus text-xs"></i>
+                </button>
+
+                <span id="fontSizeDisplay" class="text-sm">100%</span>
+
+                <button id="fonteMaior" class="p-2 rounded-full hover:bg-gray-700 transition">
+                    <i class="fas fa-font text-sm"></i>
+                    <i class="fas fa-plus text-xs"></i>
+                </button>
+            </div>
+            
         </ul>
             <img class="logo-agrinho" src="img/logo-agrinho.png" alt="Logo oficial do programa Agrinho">
             <ul class="cabecalho-itens">
@@ -25,7 +39,7 @@
             </ul>
             <img class="logo-do-site" src="img/logo-do-site.png" alt="Logo do site sobre a conexão campo cidade">
     </header>
-
+<!--
     <div id="container">
     <img class="imagem-planta" src="img/imagem-planta.jpeg" alt="Planta">
     <p class="texto-1">A conexão entre o campo e a cidade sempre 
