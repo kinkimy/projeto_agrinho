@@ -116,6 +116,7 @@ body {
     align-items: center;
     border-radius: 30px;
     align-content: center;
+    justify-content: center;
 }
 
 .imagem-planta {
