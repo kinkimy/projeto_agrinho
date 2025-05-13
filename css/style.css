@@ -115,6 +115,7 @@ body {
     width: 1150;
     align-items: center;
     padding: 109px 350px;
+    padding-left: 100px;
     border-radius: 30px;
     flex-direction: row-reverse;
     margin: 30px;
