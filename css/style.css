@@ -57,7 +57,7 @@ li {
 }
 
 .logo-agrinho {
-    width: 200px;
+    width: 250px;
     height: auto;
     float: left;
 }
@@ -79,6 +79,7 @@ li {
     height: auto;
     align-items: center;
     justify-content: flex-end;
+    float: right;
 }
 
 
@@ -107,7 +108,6 @@ body {
 }
 
 #container {
-
     background-color: #6bb77d;
     display: flex;
     color: black;
@@ -120,18 +120,6 @@ body {
     flex-direction: row-reverse;
     margin: 30px;
     justify-content: center;
-
-    /* display: flex;
-    flex-direction: row;
-    width: 1150px;
-    height: auto;
-    background-color: #6bb77d;
-    margin: 30px;
-    align-items: center;
-    border-radius: 30px;
-    align-content: center;
-    justify-content: center;
-    */
 }
 
 .imagem-planta {
