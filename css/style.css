@@ -66,12 +66,14 @@ li {
     list-style: none;
     gap: 35px;
     display: flex;
+    align-items: center;
 }
 
 .cabecalho-lista a {
     color: #ffffff;
     text-decoration: none;
     transition: all 0.3s;
+    align-items: center;
 }
 
 .logo-do-site {
