@@ -125,6 +125,7 @@ body {
     margin: 0, 15px;
     border-radius: 50px;
     height: 350px;
+    padding: auto;
 }
 
 .imagem-texto {
