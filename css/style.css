@@ -107,7 +107,20 @@ body {
 }
 
 #container {
+
+    background-color: #6bb77d;
     display: flex;
+    color: black;
+    height: auto;
+    width: 1150;
+    align-items: center;
+    padding: 109px 350px;
+    border-radius: 30px;
+    flex-direction: row-reverse;
+    margin: 30px;
+    justify-content: center;
+
+    /* display: flex;
     flex-direction: row;
     width: 1150px;
     height: auto;
@@ -117,6 +130,7 @@ body {
     border-radius: 30px;
     align-content: center;
     justify-content: center;
+    */
 }
 
 .imagem-planta {
