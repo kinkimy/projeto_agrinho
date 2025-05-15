@@ -54,7 +54,7 @@ button{
     list-style: none;
     gap: 35px;
     display: flex;
-    align-items: center;
+    justify-items: center;
 }
 
 .cabecalho-lista a {
