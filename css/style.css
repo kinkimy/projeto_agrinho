@@ -106,7 +106,7 @@ body {
     padding: 109px 350px;
     padding-left: 100px;
     border-radius: 30px;
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin: 30px;
     justify-content: center;
 }
