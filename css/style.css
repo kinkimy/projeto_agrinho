@@ -26,12 +26,12 @@ body {
 button{
     font-size: 35px;
     margin-top: 35px;
-    margin-left: 35px;
+    margin-right: 35px;
     background-color: transparent;
     border: none;
     color: white;
     cursor: pointer;
-    float: left;
+    float: right;
 }
 
 .vertical-menu {
