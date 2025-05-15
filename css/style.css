@@ -35,31 +35,19 @@ button{
 }
 
 .vertical-menu {
-    display: none;
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     margin-right: 30px;
-    float: left;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(66, 214, 66);
-}
-
-li {
-    padding: 10px;
 }
 
 .logo-agrinho {
     width: 250px;
     height: auto;
-    float: left;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .cabecalho-itens {
@@ -72,7 +60,6 @@ li {
 .cabecalho-lista a {
     color: #ffffff;
     text-decoration: none;
-    transition: all 0.3s;
     align-items: center;
 }
 
@@ -80,8 +67,8 @@ li {
     width: 120px;
     height: auto;
     align-items: center;
-    justify-content: flex-end;
-    float: right;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
