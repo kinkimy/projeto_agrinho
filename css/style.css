@@ -48,6 +48,10 @@ button{
     height: auto;
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .cabecalho-itens {
