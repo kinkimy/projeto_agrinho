@@ -72,6 +72,7 @@ button{
     height: auto;
     display: flex;
     justify-content: flex-start;
+    top: 0;
 }
 
 
