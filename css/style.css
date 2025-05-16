@@ -52,6 +52,8 @@ button{
     right: 0;
     top: 0;
     bottom: 0;
+    margin-top: 20px;
+    margin-right: auto;
 }
 
 .cabecalho-itens {
@@ -75,6 +77,7 @@ button{
     left: 0;
     top: 0;
     bottom: 0;
+    margin-bottom: auto;
 }
 
 
