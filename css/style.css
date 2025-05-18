@@ -24,7 +24,7 @@
 
 .cabecalho-itens {
     display: flex;
-    list-style: none;
+    text-decoration: none;
     gap: 20px;
     color: #fff;
 }
