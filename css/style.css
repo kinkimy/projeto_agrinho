@@ -26,9 +26,12 @@
     display: flex;
     list-style: none;
     gap: 20px;
+    color: #fff;
 }
 
 .logo-agrinho {
     display: flex;
     justify-content: flex-end;
+    width: 50%;
+    height: auto;
 }
