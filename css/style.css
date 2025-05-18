@@ -38,28 +38,33 @@
     height: auto;
 }
 
+.botao-menu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+}
 
-/* .dark-mode {
-    --bg-color: #1f2937;
-    --text-color: #f3f4f6;
-    --primary-color: #818cf8;
-    --header-bg: #111827;
-    --menu-bg: #111827;
-    --card-bg: #1f2937;
-    --footer-bg: #111827;
+.bar {
+    height: 4px;
+    background-color: #333;
+    margin: 3px 0;
 }
-        
-.text-smaller {
-    --text-base-size: 0.875rem;
+
+.accessibility-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
-        
-.text-larger {
-    --text-base-size: 1.125rem;
+
+.accessibility-menu button {
+    margin-bottom: 5px;
 }
-        
-.text-largest {
-    --text-base-size: 1.25rem;
-} */
 
 .rodape {
     background-color: #000;

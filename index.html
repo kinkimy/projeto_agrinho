@@ -8,7 +8,6 @@
     <title>FESTEJANDO A CONEXÃO CAMPO CIDADE</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="script.js" defer></script>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/"> -->
 </head>
 
 <body>
@@ -20,7 +19,15 @@
             <li class="cabecalho-lista"><a href="#contato">CONTATO</a>
         </ul>
         <img class="logo-agrinho" src="img/Agrinho-Logo.png" alt="logo do programa Agrinho">
-        <button class="botao-menu" onclick="toggleMenu()">&#9776</button>
+        <div class="botao-menu" onclick="toggleBotaoMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div id="accessibility-menu" class="accessibility-menu">
+            <button onclick="toggleTheme()">Alterar Tema</button>
+            <button onclick="increaseFontSize()">A+</button>
+        </div>
     </header>
 
     <footer class="rodape">
