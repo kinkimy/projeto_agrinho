@@ -6,13 +6,14 @@
 
 .cabecalho {
     color: #fff;
-    background-color: #000;
+    background: #000;
     display: flex;
     position: sticky;
     top: 0;
     align-items: center;
     justify-content: space-between;
     padding: 20px 5%;
+    padding-inline: 16px;
 }
 
 .logo-site {
