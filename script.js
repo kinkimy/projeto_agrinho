@@ -8,29 +8,3 @@ function Menu(){
         menu.style.display="none";
     }
 }
-
-// BOTÃO DO TAMANHO DA FONTE //
-        const fonteMenor = document.getElementById('fonteMenor');
-        const fonteMaior = document.getElementById('fonteMaior');
-        const fontSizeDisplay = document.getElementById('fontSizeDisplay');
-
-        let fontSize = 100;
-
-         fonteMenor.addEventListener('click', () => {
-            if (fontSize > 70) {
-                fontSize -= 10;
-                updateFontSize();
-            }
-        });
-        
-         fonteMaior.addEventListener('click', () => {
-            if (fontSize < 150) {
-                fontSize += 10;
-                updateFontSize();
-            }
-        });
-        
-        function updateFontSize() {
-            document.documentElement.style.setProperty('--font-size', `${fontSize / 100 * 16}px`);
-            fontSizeDisplay.textContent = `${fontSize}%`;
-        }
