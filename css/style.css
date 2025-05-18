@@ -19,7 +19,8 @@
 .logo-site {
     display: flex;
     justify-content: flex-start;
-    font-size: 50px;
+    width: 150px;
+    height: auto;
 }
 
 .cabecalho-itens {
@@ -33,6 +34,6 @@
 .logo-agrinho {
     display: flex;
     justify-content: flex-end;
-    width: 150px;
+    width: 200px;
     height: auto;
 }
