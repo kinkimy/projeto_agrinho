@@ -110,6 +110,12 @@
     font-family: serif;
 }
 
+.titulo-principal-pt2 {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+}
+
 .text{
     font-size: 25px;
     justify-content: center;
