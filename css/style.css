@@ -104,6 +104,25 @@
     transform: scale(.9)
 }
 
+.text{
+    font-size: 25px;
+}
+
+.texto-1 {
+    background-color: #6bb77d;
+    color: #000;
+}
+
+.texto-2 {
+    background-color: #000;
+    color: #ccc;
+}
+
+.texto-3 {
+    background-color: #6bb77d;
+    color: #000;
+}
+
 .rodape {
     background-color: #000;
     padding: 20px;
