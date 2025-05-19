@@ -35,6 +35,8 @@
     text-decoration: none;
     color: #fff;
     position: relative;
+    list-style: none;
+    align-items: center;
 }
 
 .cabecalho-lista ::after {
@@ -52,13 +54,13 @@
     width: 100%;
 }
 
-.logo-agrinho {
+/* .logo-agrinho {
     display: flex;
     float: left;
     margin-right: auto;
     width: 250px;
     height: auto;
-}
+} */
 
 .botao-menu {
     cursor: pointer;
