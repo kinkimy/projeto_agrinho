@@ -153,6 +153,14 @@
     font-family: "Bebas Neue", sans-serif;
 }
 
+.texto-4 {
+    color: #000;
+    margin: 40px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+}
+
 .rodape {
     background-color: #000;
     padding: 20px;
@@ -173,3 +181,22 @@
     color: #fff;
 }
 
+.imagem-github {
+    width: 50px;
+    height: auto;
+}
+
+.imagem-instagram {
+    width: 50px;
+    height: auto;
+}
+
+.imagem-whatsapp {
+    width: 50px;
+    height: auto;
+}
+
+.imagem-gmail {
+    width: 50px;
+    height: auto;
+}
