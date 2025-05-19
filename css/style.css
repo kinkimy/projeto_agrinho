@@ -90,32 +90,6 @@
     margin-bottom: 5px;
 }
 
-.dark {
-    background-color: #1a202c;
-    color: #f7fafc;
-}
-        
-.dark .accessibility-panel {
-    background-color: #2d3748;
-    color: #f7fafc;
-}
-
-.text-smaller {
-    font-size: 0.875rem;
-}
-        
-.text-normal {
-    font-size: 1rem;
-}
-        
-.text-larger {
-    font-size: 1.125rem;
-}
-        
-.text-largest {
-    font-size: 1.25rem;
-}
-
 .trilho {
     width: 50px;
     height: 15px;
