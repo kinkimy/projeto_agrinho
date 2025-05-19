@@ -25,18 +25,19 @@
 
 .cabecalho-itens {
     display: flex;
-    text-decoration: none;
     gap: 20px;
-    color: #fff;
     list-style: none;
 }
 
 .cabecalho-lista {
+    display: inline-block;
+}
+
+.cabecalho-lista a {
+    color: #ffffff;
     text-decoration: none;
-    color: #fff;
-    position: relative;
-    list-style: none;
-    align-items: center;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .cabecalho-lista ::after {
