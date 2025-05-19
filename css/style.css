@@ -120,9 +120,10 @@
 
 .texto-1 {
     background-color: #6bb77d;
+    background-size: 150px;
     color: #000;
     margin: 40px 40px;
-    border-radius: 35px;
+    border-radius: 30px;
     font-size: 20px;
     font-family: "Libre Baskerville", serif;
 }
@@ -131,7 +132,7 @@
     background-color: #000;
     color: #ccc;
     margin: 40px 40px;
-    border-radius: 35px;
+    border-radius: 30px;
     font-size: 20px;
     font-family: "Libre Baskerville", serif;
 }
@@ -140,7 +141,7 @@
     background-color: #6bb77d;
     color: #000;
     margin: 40px 40px;
-    border-radius: 35px;
+    border-radius: 30px;
     font-size: 20px;
     font-family: "Libre Baskerville", serif;
 }
