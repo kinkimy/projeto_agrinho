@@ -140,6 +140,7 @@
 
 .texto-2 {
     background-color: #000;
+    background-position: center;
     color: #ccc;
     margin: 40px 40px;
     border-radius: 30px;
@@ -150,6 +151,7 @@
 
 .texto-3 {
     background-color: #6bb77d;
+    background-position: center;
     color: #000;
     margin: 40px 40px;
     border-radius: 30px;
