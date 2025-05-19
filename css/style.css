@@ -125,7 +125,8 @@
     background-color: #6bb77d;
     background-size: 150px;
     color: #000;
-    margin: 40px 40px;
+    top: 50%;
+    left: 50%;
     border-radius: 30px;
     font-size: 20px;
     font-family: "Libre Baskerville", serif;
