@@ -104,6 +104,12 @@
     transform: scale(.9)
 }
 
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+}
+
 .text{
     font-size: 25px;
     justify-content: center;
