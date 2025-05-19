@@ -1,4 +1,5 @@
- const accessibilityPanel = document.getElementById('accessibilityPanel');
+ document.addEventListener('DOMContentLoaded', function() {
+const accessibilityPanel = document.getElementById('accessibilityPanel');
 const lightThemeBtn = document.getElementById('lightThemeBtn');
 const darkThemeBtn = document.getElementById('darkThemeBtn');
 const decreaseFontBtn = document.getElementById('decreaseFontBtn');
@@ -96,3 +97,4 @@ function toggleBotaoMenu() {
                 
     fontSizeLabel.textContent = labels[size] || 'Normal';
 }
+});
