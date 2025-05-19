@@ -130,14 +130,16 @@
     background-color: #000;
     color: #ccc;
     margin: 40px 40px;
-    border-radius: 35;
+    border-radius: 35px;
+    font-size: 20px;
 }
 
 .texto-3 {
     background-color: #6bb77d;
     color: #000;
     margin: 40px 40px;
-    border-radius: 35;
+    border-radius: 35px;
+    font-size: 20px;
 }
 
 .rodape {
