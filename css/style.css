@@ -131,7 +131,7 @@
     border-radius: 30px;
     font-size: 20px;
     font-family: "Libre Baskerville", serif;
-    column-count: 5;
+    line-height: 1.5;
 }
 
 .texto-2 {
