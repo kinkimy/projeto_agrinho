@@ -147,6 +147,12 @@
     font-family: "Libre Baskerville", serif;
 }
 
+.titulo-do-texto {
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
 .rodape {
     background-color: #000;
     padding: 20px;
