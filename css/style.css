@@ -107,7 +107,7 @@
 .titulo-principal {
     display: flex;
     justify-content: center;
-    font-family: serif;
+    font-family: 'Times New Roman', serif;
 }
 
 .titulo-principal-pt2 {
