@@ -106,21 +106,28 @@
 
 .text{
     font-size: 25px;
+    justify-content: center;
 }
 
 .texto-1 {
     background-color: #6bb77d;
     color: #000;
+    margin: 40px 40px;
+    border-radius: 35;
 }
 
 .texto-2 {
     background-color: #000;
     color: #ccc;
+    margin: 40px 40px;
+    border-radius: 35;
 }
 
 .texto-3 {
     background-color: #6bb77d;
     color: #000;
+    margin: 40px 40px;
+    border-radius: 35;
 }
 
 .rodape {
