@@ -182,21 +182,25 @@
 }
 
 .imagem-github {
-    width: 50px;
+    width: 40px;
     height: auto;
+    align-items: center;
 }
 
 .imagem-instagram {
-    width: 50px;
+    width: 60px;
     height: auto;
+    align-items: center;
 }
 
 .imagem-whatsapp {
-    width: 50px;
+    width: 75px;
     height: auto;
+    align-items: center;
 }
 
 .imagem-gmail {
     width: 50px;
     height: auto;
+    align-items: center;
 }
