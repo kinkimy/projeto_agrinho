@@ -38,6 +38,8 @@
     text-decoration: none;
     font-weight: bold;
     font-family: "Bebas Neue", sans-serif;
+    font-size: 25pt;
+    position: relative;
 }
 
 .cabecalho-lista ::after {
@@ -89,23 +91,6 @@
 
 .accessibility-menu button {
     margin-bottom: 5px;
-}
-
-.trilho {
-    width: 50px;
-    height: 15px;
-    background-color: #f9f9f9;
-    border-radius: 150px;
-    position: relative;
-    cursor: pointer;
-}
-
-.trilho .indicador {
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
-    border-radius: 50px;
-    transform: scale(.9)
 }
 
 .titulo-principal {
