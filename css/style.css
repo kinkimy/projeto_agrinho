@@ -179,9 +179,11 @@
     margin: 0 10px;
     text-decoration: none;
     color: #fff;
+    width: 40px;
+    height: auto;
 }
 
-.imagem-github {
+/* .imagem-github {
     width: 40px;
     height: auto;
     align-items: center;
@@ -203,4 +205,4 @@
     width: 50px;
     height: auto;
     align-items: center;
-}
+} */
