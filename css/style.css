@@ -173,14 +173,16 @@
 
 .icons {
     margin-top: 10px;
+    width: 40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .icons a{
     margin: 0 10px;
     text-decoration: none;
     color: #fff;
-    width: 40px;
-    height: auto;
 }
 
 /* .imagem-github {
