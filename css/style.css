@@ -40,7 +40,7 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
     position: relative;
-    margin: auto;
+    align-items: center;
 }
 
 .cabecalho-lista ::after {
