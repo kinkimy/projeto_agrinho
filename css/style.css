@@ -57,13 +57,13 @@
     width: 100%;
 }
 
-/* .logo-agrinho {
+.logo-agrinho {
     display: flex;
     float: left;
     margin-right: auto;
     width: 250px;
     height: auto;
-} */
+}
 
 .botao-menu {
     cursor: pointer;
