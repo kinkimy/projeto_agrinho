@@ -59,9 +59,9 @@
 
 .logo-agrinho {
     display: flex;
-    float: left;
+    justify-content: flex-end;
     margin-right: auto;
-    width: 250px;
+    width: 100px;
     height: auto;
 }
 
