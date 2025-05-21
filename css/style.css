@@ -167,7 +167,7 @@
     bottom: 0;
 }
 .rodape-texto {
-    font-size: 12px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -184,27 +184,3 @@
     text-decoration: none;
     color: #fff;
 }
-
-/* .imagem-github {
-    width: 40px;
-    height: auto;
-    align-items: center;
-}
-
-.imagem-instagram {
-    width: 60px;
-    height: auto;
-    align-items: center;
-}
-
-.imagem-whatsapp {
-    width: 75px;
-    height: auto;
-    align-items: center;
-}
-
-.imagem-gmail {
-    width: 50px;
-    height: auto;
-    align-items: center;
-} */
