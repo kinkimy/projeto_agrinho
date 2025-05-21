@@ -60,7 +60,7 @@
 .logo-agrinho {
     display: flex;
     justify-content: flex-end;
-    margin-left: 20px;
+    margin-left: auto;
     width: 100px;
     height: auto;
 }
