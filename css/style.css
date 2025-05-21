@@ -173,8 +173,6 @@
 
 .icons {
     margin-top: 10px;
-    width: 40px;
-    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -183,4 +181,9 @@
     margin: 0 10px;
     text-decoration: none;
     color: #fff;
+}
+
+.icons img{
+    width: 40px;
+    height: auto;
 }
