@@ -186,4 +186,5 @@
 .icons img{
     width: 40px;
     height: auto;
+    align-items: center;
 }
