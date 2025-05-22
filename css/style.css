@@ -74,6 +74,7 @@
     flex-direction: column;
     width: 30px;
     height: 30px;
+    margin-right: 10px;
 }
 
 .bar {
