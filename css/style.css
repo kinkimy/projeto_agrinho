@@ -149,13 +149,13 @@
     display: flex;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
 }
 
 .texto-4 {
     color: #000;
     margin: 40px 40px;
-    border-radius: 30px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Libre Baskerville", serif;
 }
 
