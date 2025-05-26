@@ -7,10 +7,3 @@ function botaoMenu() {
         menu.style.display = "block";
     }
 }
-
-function increaseFont() {
-    var element = document.querySelector("body");
-    var tamanhoAtual = window.getComputedStyle(element).fontSize;
-    var newSize = parseFloat(newSize) + 1 + "px";
-    element.style.fontSize = newSize
-}
