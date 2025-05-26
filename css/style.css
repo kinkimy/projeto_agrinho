@@ -29,10 +29,11 @@
     gap: 20px;
     list-style: none;
     align-items: center;
+    margin-right: auto;
 }
 
 .cabecalho-lista {
-    display: inline-block;
+    display: flex;
     align-items: center;
 }
 
@@ -64,7 +65,7 @@
 .logo-agrinho {
     display: flex;
     justify-content: flex-end;
-    margin-left: auto;
+    margin-left: 190px;
     width: 100px;
     height: auto;
 }
