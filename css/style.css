@@ -8,6 +8,7 @@
     color: #fff;
     background: #000;
     display: flex;
+    justify-content: space-around;
     position: sticky;
     top: 0;
     align-items: center;
