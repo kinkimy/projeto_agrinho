@@ -161,6 +161,10 @@
     font-family: "Libre Baskerville", serif;
 }
 
+.efeito-txt {
+    visibility: hidden;
+}
+
 .rodape {
     background-color: #000;
     padding: 20px;
