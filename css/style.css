@@ -79,26 +79,6 @@ body {
     height: auto;
 }
 
-.text-small {
-    font-size: 0.875rem;
-}
-
-.text-medium {
-    font-size: 1rem;
-}
-
-.text-large {
-    font-size: 1.125rem;
-}
-
-.text-xlarge {
-    font-size: 1.25rem;
-}
-
-.text-xxlarge {
-    font-size: 1.5rem;
-}
-
  .botao-menu {
     cursor: pointer;
     display: flex;
@@ -127,7 +107,22 @@ body {
 
 .accessibility-menu button {
     margin-bottom: 5px;
-} 
+}
+
+.tamanho-fonte {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#aumentar-fonte :hover {
+    background-color: #3e8e;
+}
+
+#diminuir-fonte :hover {
+    background-color: #3e8e;
+}
 
 .titulo-principal {
     display: flex;
