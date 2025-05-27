@@ -70,7 +70,9 @@
     height: auto;
 }
 
-.botao-menu {
+
+
+/* .botao-menu {
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
@@ -98,7 +100,7 @@
 
 .accessibility-menu button {
     margin-bottom: 5px;
-}
+} */
 
 .titulo-principal {
     display: flex;

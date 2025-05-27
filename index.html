@@ -22,11 +22,22 @@
         <a class="link-agrinho" href="https://www.sistemafaep.org.br/agrinho/" target="_blank">
             <img class="logo-agrinho" src="img/Agrinho-Logo.png" alt="logo do programa Agrinho">
         </a>
-        <div class="botao-menu" onclick="botaoMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+        <div class="flex items-center justify-center space-x-4">
+            <button id="diminuirFonte" class="fonte-menor">
+                <span class="font-bold">A-</span>Diminuir
+            </button>
+
+            <span id="currentFontSize" class="fonte-normal">Médio</span>
+
+            <button id="aumentarFonte" class="fonte-maior">
+                <span class="font-bold">A+</span>Aumentar
+            </button>
         </div>
+        <!-- <div class="botao-menu" onclick="botaoMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div> -->
     </header>
 
     <section class="inicio" id="inicio">
