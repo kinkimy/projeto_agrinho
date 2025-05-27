@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --text-size: 1rem;
+}
+
+body {
+    font-size: var(--text-size);
+    transition: font-size 0.3 ease;
+}
+
 .cabecalho {
     color: #fff;
     background: #000;
@@ -70,7 +79,25 @@
     height: auto;
 }
 
+.text-small {
+    font-size: 0.875rem;
+}
 
+.text-medium {
+    font-size: 1rem;
+}
+
+.text-large {
+    font-size: 1.125rem;
+}
+
+.text-xlarge {
+    font-size: 1.25rem;
+}
+
+.text-xxlarge {
+    font-size: 1.5rem;
+}
 
 /* .botao-menu {
     cursor: pointer;
