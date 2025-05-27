@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --text-size: 1rem;
-}
-
-body {
-    font-size: var(--text-size);
-    transition: font-size 0.3 ease;
-}
-
 .cabecalho {
     color: #fff;
     background: #000;
@@ -107,21 +98,6 @@ body {
 
 .accessibility-menu button {
     margin-bottom: 5px;
-}
-
-.tamanho-fonte {
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-#aumentar-fonte :hover {
-    background-color: #3e8e;
-}
-
-#diminuir-fonte :hover {
-    background-color: #3e8e;
 }
 
 .titulo-principal {
