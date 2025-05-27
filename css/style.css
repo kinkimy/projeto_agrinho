@@ -99,7 +99,7 @@ body {
     font-size: 1.5rem;
 }
 
-/* .botao-menu {
+ .botao-menu {
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
@@ -127,7 +127,7 @@ body {
 
 .accessibility-menu button {
     margin-bottom: 5px;
-} */
+} 
 
 .titulo-principal {
     display: flex;

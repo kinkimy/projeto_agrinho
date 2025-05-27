@@ -42,12 +42,12 @@ if(savedFontSize) {
     updateFontSize();
 }
 
-// function botaoMenu() {
-//     const menu= document.getElementById('accessibility-menu');
+ function botaoMenu() {
+     const menu= document.getElementById('accessibility-menu');
 
-//     if(menu.style.display === "block"){
-//         menu.style.display = "none";
-//     }else{
-//         menu.style.display = "block";
-//     }
-// }
+     if(menu.style.display === "block"){
+         menu.style.display = "none";
+     }else{
+         menu.style.display = "block";
+     }
+ }
