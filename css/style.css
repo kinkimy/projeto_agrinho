@@ -147,12 +147,23 @@
     padding: 30px;
 }
 
-.texto-3 {
+#terceirotexto {
+    display: flex;
+    flex-direction: row;
     background-color: #6bb77d;
-    background-position: center;
-    color: #000;
-    margin: 40px 40px;
+    align-items: center;
+    padding: 30px;
     border-radius: 30px;
+    margin: 40px 40px;
+}
+
+.imagem-colheitadeira {
+    border-radius: 30px;
+    height: auto;
+    width: 350px;
+}
+
+.texto-3 {
     font-size: 25px;
     font-family: "Libre Baskerville", serif;
     padding: 30px;
