@@ -131,6 +131,8 @@
 .imagem-planta {
     border-radius: 30px;
     margin-left: 40px;
+    height: auto;
+    width: 150px;
 }
 
 .texto-1 {
