@@ -12,6 +12,12 @@
 
  revelar.reveal('.efeito-txt',
     {
-        duration: 2,
+        duration: 2000,
+        distance: '90px'
+    })
+
+revelar.reveal('.efeito-titulo',
+    {
+        duration: 2000,
         distance: '90px'
     })
