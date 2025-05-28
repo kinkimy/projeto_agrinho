@@ -8,16 +8,16 @@
      }
  }
 
- window.revelar = ScrollReveal({reset:true})
+//  window.revelar = ScrollReveal({reset:true})
 
- revelar.reveal('.efeito-txt',
-    {
-        duration: 2000,
-        distance: '90px'
-    })
+//  revelar.reveal('.efeito-txt',
+//     {
+//         duration: 2000,
+//         distance: '90px'
+//     })
 
-revelar.reveal('.efeito-titulo',
-    {
-        duration: 2000,
-        distance: '90px'
-    })
+// revelar.reveal('.efeito-titulo',
+//     {
+//         duration: 2000,
+//         distance: '90px'
+//     })
