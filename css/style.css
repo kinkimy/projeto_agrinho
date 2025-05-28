@@ -117,9 +117,8 @@
 #primeirotexto {
     display: flex;
     flex-direction: row;
-    width: 500px;
-    height: auto;
     background-color: #6bb77d;
+    align-items: center;
     padding: 30px;
     border-radius: 30px;
     margin: 40px 40px;
