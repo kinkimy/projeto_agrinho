@@ -117,6 +117,18 @@
 #primeiro-texto {
     display: flex;
     flex-direction: row;
+    width: 500px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #6bb77d;
+    padding: 30px;
+    color: #000;
+    border-radius: 30px;
+}
+
+.imagem-planta {
+    border-radius: 30px;
 }
 
 .texto-1 {
