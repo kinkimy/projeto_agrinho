@@ -114,6 +114,11 @@
     font-size: 50px;
 }
 
+#primeiro-texto {
+    display: flex;
+    flex-direction: row;
+}
+
 .texto-1 {
     background-color: #6bb77d;
     background-position: center;
