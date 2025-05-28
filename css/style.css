@@ -125,10 +125,12 @@
     padding: 30px;
     color: #000;
     border-radius: 30px;
+    margin: 40px 40px;
 }
 
 .imagem-planta {
     border-radius: 30px;
+    margin-left: 40px;
 }
 
 .texto-1 {
