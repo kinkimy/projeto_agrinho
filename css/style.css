@@ -119,18 +119,14 @@
     flex-direction: row;
     width: 500px;
     height: auto;
-    justify-content: center;
-    align-items: center;
     background-color: #6bb77d;
     padding: 30px;
-    color: #000;
     border-radius: 30px;
     margin: 40px 40px;
 }
 
 .imagem-planta {
     border-radius: 30px;
-    margin-left: 40px;
     height: auto;
     width: 150px;
 }
