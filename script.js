@@ -12,6 +12,6 @@
 
  revelar.reveal('.efeito-txt',
     {
-        duration: 2000,
+        duration: 2,
         distance: '90px'
     })
