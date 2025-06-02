@@ -100,6 +100,26 @@
     margin-bottom: 5px;
 }
 
+.menu-acessibility {
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    border: 1px solid #6bb77d;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1001;
+    background: #fff;
+    font-size: 14px; 
+}
+
+.accessibility-menu .hidden {
+    display: none;
+}
+
 .titulo-principal {
     display: flex;
     justify-content: center;

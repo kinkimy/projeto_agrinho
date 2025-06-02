@@ -1,3 +1,5 @@
+ let currentFontSize = 16;
+ 
  function botaoMenu() {
      const menu= document.getElementById('accessibility-menu');
 
@@ -6,18 +8,14 @@
      }else{
          menu.style.display = "block";
      }
- }
+ };
 
-//  window.revelar = ScrollReveal({reset:true})
+ const increaseFont = () => {
+    currentFontSize += 2;
+    document.documentElement.style.fontSize = `${currentFontSize}px`;
+ };
 
-//  revelar.reveal('.efeito-txt',
-//     {
-//         duration: 2000,
-//         distance: '90px'
-//     })
-
-// revelar.reveal('.efeito-titulo',
-//     {
-//         duration: 2000,
-//         distance: '90px'
-//     })
+ const decreaseFont = () => {
+    currentFontSize = Math.max(12, currentFontSize - 2);
+    document.documentElement.style.fontSize = `${currentFontSize}px`;
+ };
