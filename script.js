@@ -19,3 +19,7 @@
     currentFontSize = Math.max(12, currentFontSize - 2);
     document.documentElement.style.fontSize = `${currentFontSize}px`;
  };
+
+ const toggleContrast = () => {
+    document.body.classList.toggle('high-contrast');
+ };

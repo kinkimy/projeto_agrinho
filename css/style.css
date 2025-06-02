@@ -120,6 +120,15 @@
     display: none;
 }
 
+.high-contrast {
+    background-color: #000;
+    color: #fff;
+}
+
+.high-contrast a {
+    color: #ff0;
+}
+
 .titulo-principal {
     display: flex;
     justify-content: center;
