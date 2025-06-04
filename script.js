@@ -1,25 +1,29 @@
- let currentFontSize = 16;
- 
- function botaoMenu() {
-     const menu= document.getElementById('accessibility-menu');
+let currentFontSize = 16;
 
-     if(menu.style.display === "block"){
-         menu.style.display = "none";
-     }else{
-         menu.style.display = "block";
-     }
- };
+const increaseFont = () => {
+  currentFontSize += 2;
+  document.documentElement.style.fontSize = `${currentFontSize}px`;
+};
 
- const increaseFont = () => {
-    currentFontSize += 2;
-    document.documentElement.style.fontSize = `${currentFontSize}px`;
- };
+const decreaseFont = () => {
+  currentFontSize = Math.max(12, currentFontSize - 2);
+  document.documentElement.style.fontSize = `${currentFontSize}px`;
+};
 
- const decreaseFont = () => {
-    currentFontSize = Math.max(12, currentFontSize - 2);
-    document.documentElement.style.fontSize = `${currentFontSize}px`;
- };
+const toggleContrast = () => {
+  document.body.classList.toggle('high-contrast');
+};
 
- const toggleContrast = () => {
-    document.body.classList.toggle('high-contrast');
- };
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
+const accessibilityBtn = document.getElementById('accessibility-btn');
+const accessibilityMenu = document.getElementById('accessibility-menu');
+
+accessibilityBtn.addEventListener('click', () => {
+  accessibilityMenu.classList.toggle('hidden');
+});
