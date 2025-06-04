@@ -164,13 +164,12 @@
 
 #segundotexto {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     background-color: #000;
     align-items: center;
     padding: 30px;
     border-radius: 30px;
     margin: 40px 40px;
-    color: #fff;
 }
 
 .imagem-cidade {
