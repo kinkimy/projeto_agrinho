@@ -21,6 +21,11 @@
     justify-content: flex-start;
     width: 100px;
     height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-site:hover {
+    transform: scale(1.2);
 }
 
 .cabecalho-itens {
@@ -68,6 +73,11 @@
     margin-left: 200px;
     width: 100px;
     height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-agrinho:hover {
+    transform: scale(1.2);
 }
 
 .accessibility-fixed {
