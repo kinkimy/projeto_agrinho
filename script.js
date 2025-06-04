@@ -27,3 +27,20 @@ const accessibilityMenu = document.getElementById('accessibility-menu');
 accessibilityBtn.addEventListener('click', () => {
   accessibilityMenu.classList.toggle('hidden');
 });
+
+const revealElements = document.querySelectorAll('.reveal');
+
+function revealOnScroll() {
+  const windowHeight = window.innerHeight;
+  revealElements.forEach(el => {
+    const elementTop = el.getBoundingClientRect().top;
+    if (elementTop < windowHeight - 50) {
+      el.classList.add('visible');
+    } else {
+      el.classList.remove('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
