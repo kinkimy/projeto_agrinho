@@ -70,20 +70,11 @@
     height: auto;
 }
 
-.hamburger {
-  display: none;
-  background: none;
-  font-size: 24px;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
 .accessibility-fixed {
   position: fixed;
   right: 10px;
   top: 150px;
-  background: #3f704d;
+  background: #6bb77d;
   color: white;
   border: none;
   padding: 8px 12px;
