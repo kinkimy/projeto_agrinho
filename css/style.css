@@ -162,12 +162,25 @@
     padding: 30px;
 }
 
-.texto-2 {
+#segundotexto {
+    display: flex;
+    flex-direction: row;
     background-color: #000;
-    background-position: center;
-    color: #ccc;
-    margin: 40px 40px;
+    align-items: center;
+    padding: 30px;
     border-radius: 30px;
+    margin: 40px 40px;
+    color: #fff;
+}
+
+.imagem-cidade {
+    border-radius: 30px;
+    height: auto;
+    width: 350px;
+}
+
+.texto-2 {
+    color: #ccc;
     font-size: 25px;
     font-family: "Libre Baskerville", serif;
     padding: 30px;
