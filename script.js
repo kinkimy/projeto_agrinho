@@ -44,3 +44,53 @@ function revealOnScroll() {
 
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
+
+// CARROSSEL
+const track = document.querySelector('.carousel-track');
+const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('next');
+
+let index = 0;
+const totalSlides = track.children.length / 2; // como duplicamos
+
+function updateCarousel() {
+  const slideWidth = track.children[0].offsetWidth;
+  track.style.transition = 'transform 0.5s ease-in-out';
+  track.style.transform = `translateX(-${index * slideWidth}px)`;
+}
+
+// Auto-play infinito
+function startAutoPlay() {
+  setInterval(() => {
+    index++;
+    const slideWidth = track.children[0].offsetWidth;
+
+    track.style.transition = 'transform 0.5s ease-in-out';
+    track.style.transform = `translateX(-${index * slideWidth}px)`;
+
+    // Quando chega ao final da duplicação, volta ao início
+    if (index >= totalSlides) {
+      setTimeout(() => {
+        track.style.transition = 'none';
+        index = 0;
+        track.style.transform = `translateX(0px)`;
+      }, 500); // mesma duração da transição
+    }
+  }, 3000); // 3 segundos entre slides
+}
+
+nextButton.addEventListener('click', () => {
+  index++;
+  if (index >= totalSlides) index = 0;
+  updateCarousel();
+});
+
+prevButton.addEventListener('click', () => {
+  index--;
+  if (index < 0) index = totalSlides - 1;
+  updateCarousel();
+});
+
+// Inicia carrossel
+updateCarousel();
+startAutoPlay();

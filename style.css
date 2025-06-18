@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 .cabecalho {
     color: #fff;
     background: #000;
@@ -80,6 +81,8 @@
     transform: scale(1.2);
 }
 
+/* BOTÃO DE ACESSIBILIDADE */
+
 .accessibility-fixed {
   position: fixed;
   right: 10px;
@@ -136,6 +139,7 @@
   color: #ff0;
 }
 
+/* TÍTULO */
 .titulo-principal {
     display: flex;
     justify-content: center;
@@ -150,6 +154,7 @@
     font-size: 50px;
 }
 
+/* TEXTOS E IMAGENS*/
 #primeirotexto {
     display: flex;
     flex-direction: row;
@@ -231,10 +236,47 @@
     font-family: "Libre Baskerville", serif;
 }
 
-/* .efeito-txt, .efeito-titulo {
-    visibility: hidden;
-} */
+/* CARROSSEL */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
+button {
+  background: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 300px;
+  height: 200px;
+  background: #eee;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border: 2px solid #ccc;
+}
+
+/* FOOTER */
 .rodape {
     background-color: #000;
     padding: 20px;
