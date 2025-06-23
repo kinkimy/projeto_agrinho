@@ -206,8 +206,9 @@
 }
 
 .carousel-item img {
-  width: 100%;
-  display: block;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-button {
@@ -243,6 +244,7 @@
     text-align: center;
     align-items: center;
     bottom: 0;
+    top: 10%;
 }
 .rodape-texto {
     font-size: 20px;
@@ -263,7 +265,9 @@
 }
 
 .icons img{
-    width: 40px;
+    width: 35px;
     height: auto;
     align-items: center;
 }
+
+/* RESPONSIVIDADE */
