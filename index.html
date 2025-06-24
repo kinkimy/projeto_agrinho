@@ -1,133 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Complatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <title>COEXISTIR</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskervill/Bebas+Neue">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COEXISTIR</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <input type="checkbox" id="toggle-font" hidden>
+  <input type="checkbox" id="toggle-contrast" hidden>
+  <input type="checkbox" id="toggle-accessibility" hidden>
+  <input type="checkbox" id="carousel-play" hidden>
+
+  <!-- INPUTS DO CARROSSEL -->
+  <input type="radio" name="carousel" id="img1" checked hidden>
+  <input type="radio" name="carousel" id="img2" hidden>
+  <input type="radio" name="carousel" id="img3" hidden>
+
+  <!-- ACESSIBILIDADE -->
+  <div class="acessibilidade-wrapper">
+    <label for="toggle-accessibility" class="accessibility-fixed" aria-label="Menu de acessibilidade">☰</label>
+
+    <div class="accessibility-menu hidden">
+      <label for="toggle-font"> A+ a-</label>
+      <label for="toggle-contrast">☾ 🔆</label>
+    </div>
 
     <!-- HEADER -->
-    <header class="cabecalho">
-
-        <!-- LOGO DO SITE -->
-        <img class="logo-site" src="./img/imagens de logo/Site-Logo.png" alt="logo do site">
-
-        <!-- LINKS DE NAVEGAÇÃO -->
-        <ul class="cabecalho-itens">
-            <li class="cabecalho-lista"><a href="#inicio">ÍNICIO</a>
-            <li class="cabecalho-lista"><a href="#video">VÍDEO</a>
-            <li class="cabecalho-lista"><a href="#contato">CONTATO</a>
+    <header class="header">
+      <div class="logo">
+        <a href="#inicio"><img src="./img/logo/Logo.png" alt="Logo Site"  title="Logo de uma mão segurando um prédio e uma árvore simbolizando a união."/></a>
+      </div>
+      <div class="titulo-site">COEXISTIR</div>
+      <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="hamburger" aria-label="Abrir menu">☰</label>
+        <ul class="nav-links">
+          <li><a href="#video">VÍDEO</a></li>
+          <li><a href="#quiz">QUIZ</a></li>
+          <li><a href="#galeria">IMAGENS</a></li>
         </ul>
-
-        <!-- LOGO DO AGRINHO -->
-        <a class="link-agrinho" href="https://www.sistemafaep.org.br/agrinho/" target="_blank">
-            <img class="logo-agrinho" src="./img/imagens de logo/Agrinho-Logo.png" alt="logo do programa Agrinho">
-        </a>
+      </nav>
     </header>
 
-    <!-- ACESSIBILIDADE -->
-     <button id="acessibility-btn" class="acessibility-fixed" aria-label="Menu de acessibilidade"
-     aria-expanded="false">A+</button>
-     <div id="acessibility-menu" class="acessibility-menu hidden">
-        <button onclick="increaseFont()">Aumentar Fonte</button>
-        <button onclick="decreaseFont()">Diminuir Fonte</button>
-        <button onclick="toggleContrast()">Alto Contraste</button>
-    </div>
+    <!-- INÍCIO -->
+    <main>
 
-    <!-- TEMA PRINCIPAL -->
-    <section class="inicio" id="inicio">
-    <h1 class="titulo-principal">FESTEJANDO A CONEXÃO</h1>
-    <h2 class="titulo-principal-pt2">CAMPO CIDADE</h2>
-    </section>
+      <!-- TEXTOS PRICIPAIS -->
+      <section id="inicio" class="reveal visible">
+        <h1 class="titulo">COEXISTIR: UMA CONEXÃO ENTRE O PASSADO AGRÁRIO</h1>
+        <h1 class="titulo">E O FUTURO INDUSTRIAL</h1>
 
-    <!-- TEXTOS -->
-    <div id="primeirotexto" tabindex="0">
-            <img class="imagem-planta" src="./img/imagens campo/Planta.jpeg">
-    <p class="texto-1"> A conexão entre o campo e a cidade 
-        sempre existiu, entretanto, ela só 
-        ganhou mais noteriedade no século XVIII 
-        na Inglaterra  com o aumento populacional 
-        das cidades em virtude da Revolução 
-        Industrial. 
-         Foi graças a ela, que os laços entre o campo 
-        e a cidade se estreitaram.
-    </p>
-    </div>
-    </div>
+        <div class="imagem-texto">
+          <div class="primeirotexto" tabindex="0">
+            <img src="./img/campo/Planta.jpeg" alt="imagem de planta" class="imagem-planta" title="Um homem segurando uma muda em um campo rural.">
+            <p class="texto-1 texto">
+              A conexão entre o campo e a cidade sempre existiu, entretanto, ela só ganhou mais noteriedade
+              no século XVIII na Inglaterra com o aumento populacional das cidades em virtude da Revolução
+              Industrial. Foi graças a ela, que os laços entre o campo e a cidade se estreitaram.
+            </p>
+          </div>
 
-    <div id="segundotexto" tabindex="0">
-        <img class="imagem-cidade" src="./img/imagens cidade/Cidade.jpeg">
-        <p class="texto-2"> No Brasil, os impactos da Revolução 
-            Industrial se consolidaram apenas a 
-            partir de 1930, com o modelo industrial em vaga.
-             No ano de 1940 existia apenas 31,2% de pessoas nas 
-            cidades e 68,8% no campo rural, entretanto, após 
-            esta grande mudança na cidade, em 1980 a os 
-            papéis se inverteram e a população urbana acabou 
-            por superar a população rural com uma diferença 
-            de aproximadamente 35,2%, segundo os dados do IBGE.
-        </p>
-    </div>
+          <div class="segundotexto" tabindex="0">
+            <img src="./img/cidade/Centro.jpeg" alt="imagem tirada em um centro da cidade" class="imagem-cidade" title="Centro da cidade com duas lojas, uma delas está ao fundo esuqerdo e a outra na frente, 
+            um carro e um prédio ao fundo direito.">
+            <p class="texto-2 texto">
+              No Brasil, os impactos da Revolução Industrial se consolidaram apenas a partir de 1930, com o
+              modelo industrial em vaga. No ano de 1940 existia apenas 31,2% de pessoas nas cidades e 68,8%
+              no campo rural, entretanto, após esta grande mudança na cidade, em 1980 a os papéis se inverteram
+              e a população urbana acabou por superar a população rural com uma diferença de aproximadamente
+              35,2%, segundo os dados do IBGE.
+            </p>
+          </div>
 
-    <div id="terceirotexto" tabindex="0">
-        <img class="imagem-colheitadeira" src="./img/imagens campo/Colheitadeira.jpeg">
-        <p class="texto-3"> Mesmo com os impactos 
-            causados, com o passar dos anos, a 
-            cidade contribuiu para ajudar o campo, 
-            fornecendo tecnologias para um 
-            melhor desenvolvimento das 
-            matérias-primas que o campo produz.
-        </p>
-    </div>
+          <div class="terceirotexto" tabindex="0">
+            <img src="./img/campo/Colheitadeira.jpeg" alt="imagem de uma colheitadeira azul" class="imagem-colheitadeira" title="Colheitadeira azul trabalhando em um campo com plantas.">
+            <p class="texto-3 texto">
+              Mesmo com os impactos causados, com o passar dos anos, a cidade contribuiu para ajudar o campo,
+              fornecendo tecnologias para um melhor desenvolvimento das matérias-primas que o campo produz.
+            </p>
+          </div>
+        </div>
 
-    <!-- ESTUDOS MAIS APROFUNDADOS -->
-    <h3 class="titulo-do-texto efeito-titulo">REVOLUÇÃO INDUSTRIAL</h3>
-
-    <div class="texto efeito-txt" tabindex="0">
-        <p class="texto-4"> A Revolução Industrial iniciou-se a partir da segunda metade do século 
-            XVIII na Inglaterra e, com o tempo, se espalhou pelo mundo inteiro, 
-            causando várias mudanças e transformações. Ela iniciou-se na Inglaterra 
-            pelo fato de lá ter sido criada a primeira máquina a vapor, em 1698, por 
+        <!-- UM POUCO SOBRE A HISTÓRIA DA REVOLUÇÃO INDUSTRIAL -->
+        <h2 class="titulo">REVOLUÇÃO INDUSTRIAL</h2>
+        <div class="texto-4" tabindex="0">
+          <p> A Revolução Industrial iniciou-se a partir da segunda metade do século
+            XVIII na Inglaterra e, com o tempo, se espalhou pelo mundo inteiro,
+            causando várias mudanças e transformações. Ela iniciou-se na Inglaterra
+            pelo fato de lá ter sido criada a primeira máquina a vapor, em 1698, por
             Thomas Newcomen que foi aperfeiçoada em 1765 por James Hobsbawm.
-        </p>
-        <p class="texto-4">  Muitas pessoas associam a Revolução Industrial ao desenvolvimento de 
-            novas tecnologias, pelo fato de que tudo se iniciou com a criação de 
-            máquinas que contribuíram para o trabalho das indústrias, fazendo com 
+          </p>
+          <p> Muitas pessoas associam a Revolução Industrial ao desenvolvimento de
+            novas tecnologias, pelo fato de que tudo se iniciou com a criação de
+            máquinas que contribuíram para o trabalho das indústrias, fazendo com
             que elas aumentassem as suas produções e eficiências.
-        </p>
-        <p class="texto-4"> Com o crescimento das fábricas durante a Revolução Industrial 1.0, muitas 
-            pessoas migraram do campo para a cidade. Este evento ficou conhecido 
-            como o êxodo rural, e ele foi um dos principais impactos que afetaram a 
-            Revolução Industrial. Muitas pessoas estavam migrando do campo para a 
-            cidade em busca de novas oportunidades de trabalho e uma condição de 
+          </p>
+          <p> Com o crescimento das fábricas durante a Revolução Industrial 1.0, muitas
+            pessoas migraram do campo para a cidade. Este evento ficou conhecido
+            como o êxodo rural, e ele foi um dos principais impactos que afetaram a
+            Revolução Industrial. Muitas pessoas estavam migrando do campo para a
+            cidade em busca de novas oportunidades de trabalho e uma condição de
             vida melhor por conta das indústrias que estavam surgindo na cidade.
-        </p>
-        <p class="texto-4"> No campo a Revolução Industrial causou vários impactos. Durante a 
-            Revolução Industrial 2.0, foram produzidas máquinas em que os homens 
-            do campo parassem de depender da força animal, possibilitando um 
-            aumento da atividade agrícola e pecuária. Durante a Revolução Industrial 
-            3.0, houve um progresso nas inovações tecnológicas em fertilizantes que 
-            tiveram como foco principal melhorar a eficiência deles nos nutrientes, na 
-            redução dos impactos ambientais e também da sustentabilidade agrícola. 
-            A Revolução 4.0, que é onde vivemos atualmente, foca em adaptar e criar 
+          </p>
+          <p> No campo a Revolução Industrial causou vários impactos. Durante a
+            Revolução Industrial 2.0, foram produzidas máquinas em que os homens
+            do campo parassem de depender da força animal, possibilitando um
+            aumento da atividade agrícola e pecuária. Durante a Revolução Industrial
+            3.0, houve um progresso nas inovações tecnológicas em fertilizantes que
+            tiveram como foco principal melhorar a eficiência deles nos nutrientes, na
+            redução dos impactos ambientais e também da sustentabilidade agrícola.
+            A Revolução 4.0, que é onde vivemos atualmente, foca em adaptar e criar
             novas tecnologias tanto para a cidade quanto para o campo.
-        </p>
-        <p class="texto-4">  O campo e a cidade tiveram um forte impacto nessa história, pois foi 
-            graças à matéria-prima dos campos, à mão de obra das cidades que a 
-            Revolução Industrial pode acontecer e que temos novas tecnologias cada 
+          </p>
+          <p> O campo e a cidade tiveram um forte impacto nessa história, pois foi
+            graças à matéria-prima dos campos, à mão de obra das cidades que a
+            Revolução Industrial pode acontecer e que temos novas tecnologias cada
             vez mais, então tudo o que temos é graças à conexão do campo e da cidade.
-        </p>
-    </div>
+          </p>
+        </div>
+      </section>
 
-    <!-- VÍDEO -->
+      <!-- VÍDEO -->
       <section id="video" class="reveal visible">
         <h2 class="titulo">ENTREVISTA</h2>
         <div class="video-entrevista">
@@ -143,29 +139,110 @@
       </div>
       </section>
 
-    <!-- CARROSSEL -->
+      <!-- QUIZ DE PERGUNTAS -->
+      <section id="quiz" class="reveal visible">
+        <h2 class="titulo">VAMOS DESCOBRIR O QUANTO VOCÊ APRENDEU!</h2>
+
+        <!-- CAIXA DE CONTROLE -->
+        <input type="checkbox" id="quiz-toggle" hidden>
+
+        <form class="quiz-form">
+          <div class="quiz-question">
+            <p>1. De qual forma a cidade contribui para uma melhor conexão com o campo?</p>
+            <label><input type="radio" name="q1" required> Com o desenvolvimento de novas máquinas e fertilizantes para
+              uma melhor produção agrícola.</label>
+            <label><input type="radio" name="q1"> Ela não ajuda o campo em nenhum aspecto, apenas utiliza da matéria
+              prima dele.</label>
+            <label><input type="radio" name="q1"> Deixando com que os insetos acabem com as plantações do campo.</label>
+          </div>
+
+          <div class="quiz-question">
+            <p>2. Como a migração da população rural para as cidades durante a Revolução Industrial afetou a
+              agricultura?</p>
+            <label><input type="radio" name="q2" required> Reduziu o número de trabalhadores rurais.</label>
+            <label><input type="radio" name="q2"> Aumentou a mão de obra disponível nas fazendas.</label>
+            <label><input type="radio" name="q2"> Melhorou a qualidade do solo</label>
+          </div>
+
+          <div class="quiz-question">
+            <p>3. Quando foi mandado máquinas ao campo teve apenas impactos positivos?</p>
+            <label><input type="radio" name="q3" required> Não, pois muitas pessoas que trabalhavam no campo tiveram que
+              ir embora por não saber mexer com as novas máquinas.</label>
+            <label><input type="radio" name="q3"> Não, pois ele afetou negativamente todas as pessoas
+              envolvidas.</label>
+            <label><input type="radio" name="q3"> Sim, pois possibilitou várias oportunidades gerando um maior
+              desempenho.</label>
+          </div>
+
+          <div class="quiz-question">
+            <p>4. Quais impactos a Revolução Industrial gerou na conexão entre o campo e a cidade?</p>
+            <label><input type="radio" name="q4" required> Fortaleceu os laços entre eles fazendo com que trabalhassem
+              em conjunto.</label>
+            <label><input type="radio" name="q4"> Afetou negativamente o campo e a cidade.</label>
+            <label><input type="radio" name="q4"> Trouxe novas oportunidades para a cidade deixando o campo de
+              lado.</label>
+          </div>
+
+          <div class="quiz-question">
+            <p>5. O que as cidades oferecem ao campo em troca da matéria prima?</p>
+            <label><input type="radio" name="q5" required> Máquinas e fertilizantes para uma melhor produção, além de
+              mercado para produtos agrícolas.</label>
+            <label><input type="radio" name="q5"> Terras para um melhor cultivo.</label>
+            <label><input type="radio" name="q5"> Nada.</label>
+          </div>
+
+          <label for="quiz-toggle" class="quiz-submit-btn">Enviar</label>
+        </form>
+
+        <div class="quiz-result">
+          <p>Obrigado por colaborar conosco!</p>
+        </div>
+      </section>
+
+      <!-- CARROSSEL -->
+      <section id="galeria" class="reveal visible">
+        <h2 class="titulo">IMAGENS UTILIZADAS:</h2>
+        <div class="carousel-container">
+          <label for="img3" class="carousel-btn control-prev img1">◄</label>
+          <label for="img1" class="carousel-btn control-prev img2">◄</label>
+          <label for="img2" class="carousel-btn control-prev img3">◄</label>
+
+          <div class="carousel-wrapper">
+            <div class="carousel-slide">
+              <div class="carousel-images">
+                <img src="./img/campo/Planta.jpeg" alt="Planta" title="Um homem segurando uma muda em um campo rural.">
+                <img src="./img/cidade/Centro.jpeg" alt="Centro" title="Centro da cidade com duas lojas, uma delas está ao fundo esuqerdo e a outra na frente, 
+            um carro e um prédio ao fundo direito.">
+                <img src="./img/campo/Colheitadeira.jpeg" alt="Colheitadeira" title="Colheitadeira azul trabalhando em um campo com plantas.">
+              </div>
+            </div>
+          </div>
+
+          <label for="img2" class="carousel-btn control-next img1">►</label>
+          <label for="img3" class="carousel-btn control-next img2">►</label>
+          <label for="img1" class="carousel-btn control-next img3">►</label>
+        </div>
+
+        <div class="carousel-controls">
+          <label for="carousel-play" class="carousel-btn">▶||</label>
+        </div>
+      </section>
+
+    </main>
 
     <!-- FOOTER -->
-    <footer class="rodape" tabindex="0">
-        <section class="contato" id="contato">
-            <p class="rodape-texto">Site desenvolvido por Julia para o concurso Agrinho
+    <footer>
+      <p>Site desenvolvido por Julia para o concurso Agrinho
         © 2025 - Concurso Agrinho | Conteúdo autoral</p>
-
-        <!-- REDES DE CONTATO -->
-        <div class="icons">
-            <a href="https://www.instagram.com/cry_babyarts/" target="_blank">
-                <img class="imagem-instagram" src="./img/imagens de logo/Instagram-Logo.jpg" alt="Logo do Instagram" title="Ícone do Instagram que, ao ser clicado, leva ao perfil do criador do site">
-            </a>
-            <a href="https://github.com/kinkimy" target="_blank">
-                <img class="imagem-github" src="./img/imagens de logo/GitHub-Logo.jpg" alt="Logo do GitHub">
-            </a>
-            <a href="+55 (42) 98434-5168" target="_blank">
-                <img class="imagem-whatsapp" src="./img/imagens de logo/Whatsapp-Logo.jpg" alt="Logo do WhatsApp">
-            </a>
-        </div>
-        </section>
+      <div class="social-links">
+        <a href="https://github.com/kinkimy" target="_blank"><img src="./img/logo/GitHub-Logo.png" alt="GitHub"
+            title="logo do GitHub" class="icon" /></a>
+        <a href="https://www.instagram.com/cry_babyarts" target="_blank">
+          <img src="./img/logo/Instagram-Logo.png" alt="Instagram" class="icon" title="Logo do Instagram"/>
+        </a>
+      </div>
     </footer>
-
-    <script src="script.js"></script>
+  </div>
 </body>
+
 </html>
