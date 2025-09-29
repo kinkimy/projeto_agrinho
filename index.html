@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <script src="script.js"></script>
+
   <input type="checkbox" id="toggle-font" hidden>
   <input type="checkbox" id="toggle-contrast" hidden>
   <input type="checkbox" id="toggle-accessibility" hidden>
@@ -132,11 +134,56 @@
       </section>
 
       <!-- QUIZ DE PERGUNTAS -->
-      <section id="quiz" class="reveal visible">
-        <h2 class="titulo">VAMOS DESCOBRIR O QUANTO VOCÊ APRENDEU!</h2>
+       <!-- QUIZ -->
+<div class="quiz-container">
+  <form class="quiz-form">
+    <div class="quiz-question">
+      <p>1) Qual a capital do Brasil?</p>
+      <label><input type="radio" name="q1"> Brasília</label>
+      <label><input type="radio" name="q1"> Rio de Janeiro</label>
+      <label><input type="radio" name="q1"> São Paulo</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>2) Quanto é 2 + 2?</p>
+      <label><input type="radio" name="q2"> 3</label>
+      <label><input type="radio" name="q2"> 4</label>
+      <label><input type="radio" name="q2"> 5</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>3) Quem pintou a Mona Lisa?</p>
+      <label><input type="radio" name="q3"> Leonardo da Vinci</label>
+      <label><input type="radio" name="q3"> Michelangelo</label>
+      <label><input type="radio" name="q3"> Van Gogh</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>4) Qual planeta é conhecido como "Planeta Vermelho"?</p>
+      <label><input type="radio" name="q4"> Marte</label>
+      <label><input type="radio" name="q4"> Júpiter</label>
+      <label><input type="radio" name="q4"> Vênus</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>5) Em que continente está o Egito?</p>
+      <label><input type="radio" name="q5"> África</label>
+      <label><input type="radio" name="q5"> Ásia</label>
+      <label><input type="radio" name="q5"> Europa</label>
+    </div>
+
+    <button type="submit" class="quiz-btn">Enviar Respostas</button>
+  </form>
+
+  <!-- Resultado aparece aqui -->
+  <div class="quiz-result"></div>
+</div>
+
+      <!-- <section id="quiz" class="reveal visible">
+        <h2 class="titulo">VAMOS DESCOBRIR O QUANTO VOCÊ APRENDEU!</h2> -->
 
         <!-- CAIXA DE CONTROLE -->
-        <input type="checkbox" id="quiz-toggle" hidden>
+        <!-- <input type="checkbox" id="quiz-toggle" hidden>
 
         <form class="quiz-form">
           <div class="quiz-question">
@@ -188,8 +235,8 @@
 
         <div class="quiz-result">
           <p>Obrigado por colaborar conosco!</p>
-        </div>
-      </section>
+        </div> 
+      </section> -->
 
       <!-- CARROSSEL -->
       <section id="galeria" class="reveal visible">
